@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: #5a96e6; /* Biru muda */
+    color: #ffffff; /* Putih */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    height: 60px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.logo-title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav input[type="text"] {
+    padding: 10px; /* Mengurangi padding */
+    margin-left: 10px;
+}
+
+.main {
+    padding: 20px;
+}
+
+section.welcome {
+    margin: 20px 0;
+}
+
+.footer-links {
+    background-color: #5a96e6; /* Biru muda */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: none; /* Hapus border */
+    padding: 10px; /* Ruang di sekitar konten */
+    margin-bottom: 20px; /* Jarak antara bagian-bagian footer */
+}
+
+.footer-links h4 {
+    color: #ffffff; /* Warna teks judul */
+    margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+.footer-links ul {
+    list-style: none; /* Menghapus bullets pada daftar */
+    padding: 0; /* Menghapus padding default */
+}
+
+.footer-links ul li {
+    margin-bottom: 5px; /* Jarak antara setiap item daftar */
+}
+
+.footer-links ul li a {
+    color: #aadaf4; /* Warna tautan */
+    text-decoration: none; /* Menghapus garis bawah tautan */
+    transition: color 0.3s; /* Efek transisi perubahan warna */
+}
+
+.footer-links ul li a:hover {
+    color: #5a96e6; /* Warna tautan saat dihover */
+}
+
+footer {
+    background-color: #5a96e6; /* Biru muda */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.follow-newsletter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    width: 45%; /* Lebar sama dengan bagian newsletter */
+}
+
+.follow, .newsletter {
+    width: 45%; /* Lebar sama dengan bagian contact-info */
+}
